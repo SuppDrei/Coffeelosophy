@@ -1,11 +1,11 @@
 .logo {
-    background-color: #634832;
-    border-radius: 20px;
-    margin-top: 5px;
+    background-color: #8f6645;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: linear-gradient(170deg, #8f6645, darkgreen );
-    
     
 }
 
@@ -13,10 +13,43 @@
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #996515;
+    
 }
 
 #Description {
     margin-top: -35px;
 }
 
+.podcast {
+    background-color: darkgreen;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-right: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+
+audio  {
+    width: 500px;
+    background-image: linear-gradient(170deg, #8f6645, green );
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 360px;
+    margin-right: 360px;
+    border-radius: 60px;
+    border: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background-image: linear-gradient(170deg, #8f6645, green );
+    border: -10px;
+    
+  }
 
