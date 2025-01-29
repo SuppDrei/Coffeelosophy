@@ -25,10 +25,11 @@
     padding-top: 200px;
     padding-bottom: 200px;
     margin-right: 500px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 290px;
+    padding-right: 250px;
     margin-left: 500px;
     border-radius: 20px;
+    display: inline-block;
 }
 
 
@@ -66,16 +67,19 @@ audio::-webkit-media-controls-panel {
     width: 230px;
     height: 230px;
     margin-left: -280px;
-    margin-top: -185px;
+    margin-top: -80px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #967259;
-    
+    float: none;
+    position: relative;
 }
 
 #describe {
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: -10px;
-    margin-left: 765px;
+    margin-left: -7px;
     text-align: justify;
+    position: absolute;
+    display: inline-block;
 }
