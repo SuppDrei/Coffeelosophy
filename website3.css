@@ -71,7 +71,7 @@ audio::-webkit-media-controls-panel {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #967259;
     float: none;
-    position: relative;
+    
 }
 
 #describe {
